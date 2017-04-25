@@ -1,0 +1,39 @@
+/*body{
+	background: #d2d6db;
+}
+*/
+/*h3{
+	text-align: center;
+}*/
+
+.fa{
+	color:red;
+}
+
+.icon{
+	position: relative;
+	max-width: 60px;
+	max-height: 60px;
+	padding-top: 20px;
+}
+
+.news{
+	overflow: scroll;
+	max-height: 410px;
+}
+
+.list-group-item{
+	font-size: 25px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+.content, table {
+	display: none;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px){
+.show {
+	display: block;
+}
+}
