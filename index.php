@@ -107,6 +107,16 @@
 				?>
 			</div>
 			<!-- /form -->
+			<!-- Feeds -->
+			<div class="row">
+				<div class="col-sm-6">
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=450&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="450" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				</div>
+				<div class="col-sm-6">
+					<a class="twitter-timeline" data-width="450" data-height="400" href="https://twitter.com/cnnbrk">Tweets by cnnbrk</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<hr/>
 			<!-- Search Fields -->
 			<div class="row content">
 				<div class="col-sm-4">
@@ -120,7 +130,7 @@
 			</div>
 		
 			<div class="row col-sm-12">
-				<table class="table table-responsive">	    
+				<table class="table table-responsive table-striped">	    
 				      <tr>
 				        <th>Employeer Name</th>
 				        <th>Email</th>
@@ -164,7 +174,7 @@ app.controller('UserController', function($scope, $http){
 					'telephone':$scope.telephone,
 					'company':$scope.company,
 					'date':$scope.date,
-					// 'year':$scope.year,
+					'year':$scope.year,
 					'btnName':$scope.btnName,
 					'ID':$scope.ID
 				}
